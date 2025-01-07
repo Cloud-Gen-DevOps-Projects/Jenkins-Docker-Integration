@@ -10,7 +10,7 @@ pipeline {
 	stages{
 		stage("Code Checkout"){
 			steps{
-				git branch: 'main', url: 'https://github.com/Cloud-Gen-DevOps-Projects/Jenkins-Docker-Integration.git'
+				git branch: 'main', url: 'https://github.com/Cloud-Gen-DevOps-Projects/Rigstration-Form.git'
 			}
 		}
 		stage("Code Qulity Check"){
